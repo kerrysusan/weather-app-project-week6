@@ -1,0 +1,59 @@
+.container {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(
+    109.6deg,
+    rgb(204, 228, 247) 11.2%,
+    rgb(237, 246, 250) 100.2%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  margin: 25px;
+  width: max-content;
+}
+body {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 20px;
+}
+h2 {
+  font-size: 20px;
+}
+.col-md-2 {
+  width: 100px;
+  margin: 0 auto;
+  align-items: center;
+}
+.dayTime {
+  margin-right: 25px;
+}
+.card-title {
+  font-size: 10px;
+}
+.card-text {
+  font-size: 15px;
+  font-weight: 200px;
+}
+.weatherEmoji {
+  font-size: 30px;
+}
+
+.temperature {
+  font-size: 35px;
+  padding: 5px;
+}
+
+.tempOptions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#searchButton {
+  font-size: 12px;
+  border: 1px;
+  border-radius: 20px;
+}
